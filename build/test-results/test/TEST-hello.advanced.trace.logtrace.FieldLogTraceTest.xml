@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.advanced.trace.logtrace.FieldLogTraceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-08-11T07:38:54" hostname="johyeonhwaui-MacBookPro.local" time="0.045">
+  <properties/>
+  <testcase name="begin_end_level2()" classname="hello.advanced.trace.logtrace.FieldLogTraceTest" time="0.041"/>
+  <testcase name="begin_exception_level2()" classname="hello.advanced.trace.logtrace.FieldLogTraceTest" time="0.003"/>
+  <system-out><![CDATA[16:38:54.784 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] hello1
+16:38:54.796 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] |-->hello2
+16:38:54.797 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] |<--hello2 time=5ms
+16:38:54.797 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] hello1 time=15ms
+16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] hello1
+16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] |-->hello2
+16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] |<--hello2 time=0ms
+16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] hello1 time=0ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

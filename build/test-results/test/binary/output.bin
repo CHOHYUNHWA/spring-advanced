@@ -1,8 +1,4 @@
-`16:38:54.784 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] hello1
-d16:38:54.796 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] |-->hello2
-m16:38:54.797 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] |<--hello2 time=5ms
-j16:38:54.797 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [74bbdf93] hello1 time=15ms
-`16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] hello1
-d16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] |-->hello2
-m16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] |<--hello2 time=0ms
-i16:38:54.808 [Test worker] INFO hello.advanced.trace.logtrace.FieldLogTrace - [d99a73fc] hello1 time=0ms
+p16:46:47.580 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - 비즈니스 로직 1 실행
+`16:46:47.587 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - resultTime=9
+p16:46:47.589 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - 비즈니스 로직 1 실행
+`16:46:47.590 [Test worker] INFO hello.advanced.trace.template.TemplateMethodTest - resultTime=1

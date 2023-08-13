@@ -1,4 +1,4 @@
-k22:32:06.582 [Test worker] INFO hello.advanced.trace.strategy.ContextV2Test - 비즈니스 로직 1 실행
-e22:32:06.587 [Test worker] INFO hello.advanced.trace.strategy.code.strategy.ContextV2 - resultTime=7
-k22:32:06.590 [Test worker] INFO hello.advanced.trace.strategy.ContextV2Test - 비즈니스 로직 2 실행
-e22:32:06.590 [Test worker] INFO hello.advanced.trace.strategy.code.strategy.ContextV2 - resultTime=0
+23:18:44.024 [Test worker] INFO hello.advanced.trace.strategy.code.template.TemplateCallbackTest - 비즈니스 로직1 실행
+k23:18:44.030 [Test worker] INFO hello.advanced.trace.strategy.code.template.TimeLogTemplate - resultTime=8
+23:18:44.032 [Test worker] INFO hello.advanced.trace.strategy.code.template.TemplateCallbackTest - 비즈니스 로직2 실행
+k23:18:44.033 [Test worker] INFO hello.advanced.trace.strategy.code.template.TimeLogTemplate - resultTime=1

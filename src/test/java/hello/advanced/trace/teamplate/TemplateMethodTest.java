@@ -63,7 +63,5 @@ public class TemplateMethodTest {
         };
         log.info("template2 class={}",template2.getClass());
         template2.execute();
-
-
     }
 }

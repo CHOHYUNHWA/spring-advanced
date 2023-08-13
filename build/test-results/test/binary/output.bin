@@ -1,6 +1,4 @@
-�17:06:23.203 [Test worker] INFO hello.advanced.trace.teamplate.TemplateMethodTest - template1 class=class hello.advanced.trace.teamplate.TemplateMethodTest$1
-p17:06:23.211 [Test worker] INFO hello.advanced.trace.teamplate.TemplateMethodTest - 비즈니스 로직1 실행
-d17:06:23.212 [Test worker] INFO hello.advanced.trace.teamplate.code.AbstractTemplate - resultTime=0
-�17:06:23.212 [Test worker] INFO hello.advanced.trace.teamplate.TemplateMethodTest - template2 class=class hello.advanced.trace.teamplate.TemplateMethodTest$2
-p17:06:23.212 [Test worker] INFO hello.advanced.trace.teamplate.TemplateMethodTest - 비즈니스 로직2 실행
-d17:06:23.213 [Test worker] INFO hello.advanced.trace.teamplate.code.AbstractTemplate - resultTime=1
+k22:32:06.582 [Test worker] INFO hello.advanced.trace.strategy.ContextV2Test - 비즈니스 로직 1 실행
+e22:32:06.587 [Test worker] INFO hello.advanced.trace.strategy.code.strategy.ContextV2 - resultTime=7
+k22:32:06.590 [Test worker] INFO hello.advanced.trace.strategy.ContextV2Test - 비즈니스 로직 2 실행
+e22:32:06.590 [Test worker] INFO hello.advanced.trace.strategy.code.strategy.ContextV2 - resultTime=0
